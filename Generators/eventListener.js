@@ -5,7 +5,7 @@ $(document).ready(function () {
   let leadFinal
   genBtn.on('click', function (event) {
     let leadNum = $('#leadQuantity').val()
-    if (0 < leadNum && (typeof parseInt(Math.floor(leadNum))) == 'number') {
+    if ((typeof parseInt(Math.floor(leadNum))) == 'number' && 0 < leadNum) {
         genBtn.removeClass('visible')
         genBtn.addClass('invisible')
         downloadBtn.removeClass('invisible')
