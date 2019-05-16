@@ -2,7 +2,6 @@
 // const genPatient = require("./patientGenerator");
 const leads = [["firstName", "lastName", "gender", "email", "dob", "address"]];
 function genCsv(num){
-    console.log(num)
     for (let i = 0; i < num; i++) {
         let currentArr = genPatient(DATA);
         leads.push(currentArr);
