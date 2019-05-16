@@ -13,7 +13,7 @@ $(document).ready(function(){
     });
     downloadBtn.on("click", function(event){
         event.preventDefault();
-        window.open(leadFinal)
+        window.open(encodedUri)
     })
 
 })
